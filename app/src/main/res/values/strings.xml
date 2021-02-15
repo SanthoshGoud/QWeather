@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QWeather</string>
+    <string name="add_location_fab_cd">Add Location</string>
+    <string name="google_maps_key">AIzaSyBrP0H3pkf5wNabiXQVzvdkm1hchNa99B4</string>
+
+    <!-- Bottom navigation tab strings-->
+    <string name="nav_tab_messages_title">Today</string>
+    <string name="nav_tab_calls_title">This Week</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="show_location_picker">Show Location Picker</string>
+    <string name="addressline1_hint">Enter Flat No / Floor / Landmark </string>
+    <string name="edittext_hint">"Click here to edit address location"</string>
+    <string name="add_to_bookmark_btn_text">Add to bookmark</string>
+    <string name="bookmark_places_title">Bookmarks</string>
+    <string name="no_bookmarks_added_info">No bookmarks available</string>
+
+</resources>

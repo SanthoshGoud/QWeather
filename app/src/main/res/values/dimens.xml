@@ -1,0 +1,158 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Text -->
+    <dimen name="textSize_8">8sp</dimen>
+    <dimen name="textSizeMicro">12sp</dimen>
+    <dimen name="textSizeSmall">14sp</dimen>
+    <dimen name="textSizeSmallPlus">15sp</dimen>
+    <dimen name="textSizeMedium">16sp</dimen>
+    <dimen name="textSizeLarge">18sp</dimen>
+    <dimen name="textSizeLargePlus">19sp</dimen>
+    <dimen name="textSizeExtraLarge">25sp</dimen>
+    <dimen name="EndCallStatusTextSize">24sp</dimen>
+
+    <!-- Padding -->
+    <dimen name="paddingSizeNone">0dp</dimen>
+    <dimen name="paddingSizeMicro">2dp</dimen>
+    <dimen name="paddingSizeSmall">4dp</dimen>
+    <dimen name="paddingSizeSmallPlus">17dp</dimen>
+    <dimen name="paddingSizeSmallExtraPlus">7.5dp</dimen>
+    <dimen name="paddingSizeMedium">16dp</dimen>
+    <dimen name="paddingSizeMediumPlus">12dp</dimen>
+    <dimen name="paddingSizeMediumPlusPlus">17dp</dimen>
+    <dimen name="paddingSizeMediumExtraPlus">15dp</dimen>
+    <dimen name="paddingSizeMediumExtraPlusPlus">30.5dp</dimen>
+    <dimen name="paddingSizeLarge">25dp</dimen>
+    <dimen name="paddingSizeExtraLarge">30dp</dimen>
+    <dimen name="paddingSizeExtraLargePlus">40dp</dimen>
+    <dimen name="paddingSizeExtraLargePlusPlus">50dp</dimen>
+    <dimen name="paddingTextField">17.5dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="marginSizeNano">2dp</dimen>
+    <dimen name="marginSizeMicro">3dp</dimen>
+    <dimen name="marginSizeMicroPlus">5dp</dimen>
+    <dimen name="marginSizeMicroPlusPlus">8dp</dimen>
+    <dimen name="marginSizeSmall">10dp</dimen>
+    <dimen name="marginSizeSmallPlus">15dp</dimen>
+    <dimen name="marginSizeMedium">20dp</dimen>
+    <dimen name="marginSizeLarge">25dp</dimen>
+    <dimen name="marginSizeXLarge">30dp</dimen>
+    <dimen name="marginSizeXXLarge">35dp</dimen>
+    <dimen name="marginSizeExtraLarge">40dp</dimen>
+    <dimen name="marginSizeExtraLargePlus">50dp</dimen>
+    <dimen name="SizeZero">0dp</dimen>
+    <dimen name="SizeMicro">1dp</dimen>
+    <dimen name="SizeSmall">2dp</dimen>
+    <dimen name="SizeBlewMedium">6dp</dimen> <!-- using this in the messages page -->
+    <dimen name="SizeMedium">8dp</dimen> <!-- using this in the preferences page -->
+    <dimen name="stdBtnHeight">54dp</dimen> <!-- standard button height -->
+    <dimen name="srdLableSize">40dp</dimen> <!-- standard button height -->
+    <dimen name="stdBtnHeightplus">55dp</dimen>
+    <dimen name="bigBtnHeight">60dp</dimen> <!-- big button height -->
+    <dimen name="thumbImageheight">90dp</dimen> <!-- big button height -->
+    <dimen name="stdGutterSize">15dp</dimen>
+    <dimen name="stdBtnWidth">190dp</dimen>
+    <dimen name="stdGutterSizeMed">18dp</dimen>
+    <dimen name="stdGutterRightSizeMed">6dp</dimen>
+    <dimen name="stdGutterRightSize">10dp</dimen>
+    <dimen name="stdDividerHeightMicro">1dp</dimen>
+    <dimen name="stdDividerHeightSmall">2dp</dimen>
+    <dimen name="stdDividerHeight">24dp</dimen>
+    <dimen name="onePixel">1px</dimen>
+    <dimen name="textSizeStdForm">18sp</dimen> <!-- ALL form fields -->
+    <dimen name="largeEdiTextSize">90dp</dimen> <!-- ALL form fields -->
+
+
+    <!-- deimension for Meterial Design recommended use these -->
+    <!-- See http://www.google.com/design/spec/components/dialogs.html#dialogs-specs -->
+
+    <dimen name="md_dialog_frame_margin">24dp</dimen>
+    <dimen name="md_main_frame_margin">16dp</dimen>
+    <dimen name="md_title_margin_plainlist">8dp</dimen>
+
+    <!-- 64dp + 8dp (left and right insets) -->
+    <dimen name="md_button_min_width">72dp</dimen>
+
+    <!-- Above and below buttons, 36+12=48 for the height of the button frame -->
+    <dimen name="md_button_inset_vertical">6dp</dimen>
+    <dimen name="md_button_inset_horizontal">4dp</dimen>
+    <dimen name="md_button_padding_horizontal">8dp</dimen>
+    <dimen name="md_button_padding_vertical">4dp</dimen>
+    <dimen name="md_button_padding_horizontal_internalexternal">32dp</dimen>
+
+    <!-- 16dp - 4dp (inset) -->
+    <dimen name="md_button_padding_frame_side">12dp</dimen>
+    <dimen name="md_neutral_button_margin">12dp</dimen>
+    <dimen name="md_button_padding_frame_bottom">8dp</dimen>
+    <dimen name="md_button_height">48dp</dimen>
+    <dimen name="md_title_textsize">20sp</dimen>
+    <dimen name="md_content_textsize">18sp</dimen>
+    <dimen name="md_button_textsize">14sp</dimen>
+    <dimen name="md_listitem_textsize">18sp</dimen>
+    <dimen name="md_listitem_height">75dp</dimen>
+    <dimen name="md_listitem_control_margin">16dp</dimen>
+    <dimen name="md_icon_margin">16dp</dimen>
+    <dimen name="md_listitem_margin_left">24dp</dimen>
+    <dimen name="md_action_corner_radius">2dp</dimen>
+
+    <dimen name="launch_logo_size">150dp</dimen>
+
+    <dimen name="size_0">0dp</dimen>
+    <dimen name="message_delivery_satus_iv_width">20dp</dimen>
+    <dimen name="message_delivery_satus_iv_height">13dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="compose_msg_label_field_width">60dp</dimen>
+    <dimen name="compose_msg_priority_spinner_height">40dp</dimen>
+    <dimen name="compose_msg_to_field_margin_left">28dp</dimen>
+    <dimen name="setting_right_arrow_size">20dp</dimen>
+    <dimen name="conversation_screen_speaker_dimensions">22dp</dimen>
+    <dimen name="conversation_screen_translate_iv_dimensions">25dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="participant_video_preview_size">96dp</dimen>
+    <dimen name="filter_item_height">45dp</dimen>
+    <dimen name="filter_item_iv_size">20dp</dimen>
+    <dimen name="filter_root_item_width">180dp</dimen>
+
+    <string name="permissions_needed">Camera and Microphone permissions needed. Please allow in App Settings for additional functionality.</string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="turn_speaker_off">Speaker OFF</string>
+    <string name="settings">Settings</string>
+
+    <!-- Call History Screen Dimensions-->
+    <dimen name="call_history_round_icon_title_text_size">10sp</dimen>
+    <dimen name="call_history_list_item_height">72dp</dimen>
+    <dimen name="call_history_caller_title_text_size">14sp</dimen>
+    <dimen name="call_history_caller_timestamp_text_size">11sp</dimen>
+    <dimen name="call_history_round_icon_size">45dp</dimen>
+    <dimen name="call_history_section_header_text_size">16sp</dimen>
+
+    <!-- Video call ops busy bottom sheet Dimensions-->
+    <dimen name="video_call_bs_title_text_size">16sp</dimen>
+    <dimen name="video_call_bs_info_text_size">14sp</dimen>
+    <dimen name="video_call_bs_margin_size">16dp</dimen>
+    <dimen name="video_call_bs_bottom_margin_size">10dp</dimen>
+    <dimen name="bs_close_iv_size">35dp</dimen>
+    <dimen name="video_call_bs_btn_text_size">14sp</dimen>
+
+
+    <!-- ThreadList screen dimensions-->
+    <dimen name="thread_title_tv_text_size">14sp</dimen>
+    <dimen name="thread_sub_title_tv_text_size">10sp</dimen>
+    <dimen name="thread_created_by_tv_text_size">9sp</dimen>
+    <dimen name="thread_list_item_height">72dp</dimen>
+    <dimen name="thread_type_icon_size">50dp</dimen>
+    <dimen name="chat_bubble_max_width">250dp</dimen>
+    <dimen name="chat_bubble_min_width">120dp</dimen>
+    <dimen name="lottie_msg_loading_size">100dp</dimen>
+
+    <dimen name="ops_available_count_text_size">16sp</dimen>
+    <dimen name="ops_info_item_width">250dp</dimen>
+
+
+</resources>

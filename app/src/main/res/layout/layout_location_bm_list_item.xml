@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:background="@android:color/white"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/place_pin_iv"
+            android:layout_toLeftOf="@id/deleteBookMark"
+            android:padding="@dimen/paddingSizeMedium">
+
+            <TextView
+                android:id="@+id/location_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_gray"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSizeMedium" />
+
+            <TextView
+                android:id="@+id/location_details_info_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black_gray"
+                android:textSize="@dimen/textSizeSmall" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/deleteBookMark"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/marginSizeMicro"
+            android:layout_marginBottom="@dimen/marginSizeSmall"
+            android:src="@drawable/ic_delete" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_right_arrow" />
+
+        <ImageView
+            android:id="@+id/place_pin_iv"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_add_location"/>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
